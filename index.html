@@ -191,7 +191,7 @@
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <a class="portfolio-link" target="_blank" href="https://reference.medscape.com/calculator/weight-dosing">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus fa-3x"></i>
@@ -623,7 +623,7 @@
                   <img class="img-fluid d-block mx-auto" src="img/solicare/hReport.jpg" alt="">
                   <h4 class="text-muted">You can adjust who has access to your report in the settings.</h4>
                   <p></p>
-                  <button type="button" class="btn btn-secondary"><a href="https://www.medicalnewstoday.com/articles/323751.php" target="_blank">Access your medical report</a>
+                  <button type="button" class="btn btn-secondary"><a>Access your medical report</a>
                   </button>
                   <ul class="list-inline" id="medicalReport">
                     <li>Last Accessed: 7 December 2018</li>
@@ -704,14 +704,14 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2 class="text-uppercase">The Solicare App</h2>
+                  <p class="item-intro text-muted">Your handheld health manager.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <p>With the Solicare App, gain access to numerous Solicare features such as the XR Sensor, Instant Messaging with your physician, as well as appointment booking, all this at the palm of your hand!</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Lines</li>
-                    <li>Category: Branding</li>
+                    <li>Status: Linked app account with user</li>
+                    <li>Last Access App: 3 days ago</li>
+                    <li>Duration: 43 minutes</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
@@ -784,32 +784,38 @@
           </div>
           <div class="container">
             <div class="row">
-              <div class="col-lg-2 mx-auto">
-                <button type="button" class="btn btn-default buttonModal" aria-label="true">
-                <i class="fas fa-angle-double-left"></i>
-                </button>
-              </div>
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">Book Appointment</h2>
+                  <p class="item-intro text-muted">This service is currently unavailable</p>
+                  <div style="overflow:hidden;">
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="datetimepicker12"></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $('#datetimepicker12').datetimepicker({
+                inline: true,
+                sideBySide: true
+            });
+        });
+    </script>
+</div>
+                  <p>Apologies, this site is currently undergoing maintenance and as of now, appointment booking through the website is unavailable. Please use our mobile application instead.</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Window</li>
-                    <li>Category: Photography</li>
+                    <li>Estimated maintenance completion date: 12 January 2019</li>
+                    <li>Client: Web users</li>
+                    <li>Sorry for the inconvenience</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Close Project</button>
+                    Close this page</button>
                 </div>
-              </div>
-              <div class="col-lg-2 mx-auto">
-                <button type="button" class="btn btn-default buttonModal" aria-label="true">
-                <i class="fas fa-angle-double-left"></i>
-                </button>
               </div>
             </div>
           </div>
