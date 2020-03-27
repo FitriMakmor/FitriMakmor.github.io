@@ -1,4 +1,4 @@
-For my IS Project, the Agency Bootstrap Template was used. The template's readme is as follow, for those interested in using the template as well:
+## For my IS Project, the Agency Bootstrap Template was used. For those interested in using the template as well, the template's readme is as follows:
 
 # [Start Bootstrap - Agency](https://startbootstrap.com/template-overviews/agency/)
 
